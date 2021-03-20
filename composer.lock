@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f8fa63e06034889c6208a4d4ea41a1a",
+    "content-hash": "cb8f84e6305327a764ce27968f958ee2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -992,6 +992,58 @@
             "description": "Highlight PHP code in terminal",
             "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "jxlwqq/json-editor",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-admin-extensions/json-editor.git",
+                "reference": "d260f4afa8cb1c8349653629fdd626e4f9ca4687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-admin-extensions/json-editor/zipball/d260f4afa8cb1c8349653629fdd626e4f9ca4687",
+                "reference": "d260f4afa8cb1c8349653629fdd626e4f9ca4687",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jxlwqq\\JsonEditor\\JsonEditorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jxlwqq\\JsonEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jxlwqq",
+                    "email": "jxlwqq@gmail.com"
+                }
+            ],
+            "description": "JSON Editor for Laravel-admin",
+            "homepage": "https://github.com/jxlwqq/json-editor",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "time": "2020-10-09T01:04:36+00:00"
         },
         {
             "name": "kylekatarnls/update-helper",
